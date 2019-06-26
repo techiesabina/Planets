@@ -9,10 +9,9 @@ public class Test
 		this.age = age;		
 	}
 
-	public static String toString()
+	public String toString()
 	{
-		return "Hi! My name is " + this.name +
-                 ", and I'm " + age + " years old! #^3^# " );
+		return "Hi! My name is " + this.name + ", and I'm " + age + " years old! #^3^# " );
 	}	
 	
 	public static void main(String[] args)
